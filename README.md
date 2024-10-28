@@ -98,19 +98,30 @@ main = do
 
 6° atualizacao
 Aqui o belo mundo desandou, admito que me perdi com o gloss, não entedia os exemplos, como a picture que era um estado da tela, então eu o gpt começamos nossa jornada juntos, ele me explicava e eu não entendia, as coisas ficaram sombrias, descobri que existia dados estruturados em haskell, o que foi um choque. Passei a analisar códigos de jogo da velha disponíveis e entendia menos ainda, as ferramentas e técnicas de codificação eram muito complexas para mim. Eu sequer sabia fazer um laço em haskell e descobri que para o jogo ocorrer existia um play na biblioteca gloss para atualizar a tela. Então minhas lindas funções eram inúteis, nada funcionava. 
+
 Onde tudo estava perdido, tive que abrir a cabeça para aceitar que a minha estrutura definida e meu plano de jogo não ia dar certo da maneira como quis.
 A entrada do jogo passou a ser mouse, pois o gloss e entrada do teclado não queriam funcionar juntos, aí algo apareceu na tela, um sucesso. Mas a grade do jogo da velha era tenebrosa, linhas e colunas fora do lugar, uma curta e outra mais longa, depois de muitos ctrl s, cabal build e cabal run, consegui ajustar. Mas aí a lógica de entrada não estava certa, uma hora eu ganhava mas aparecia o computador.
+
 Mas no fim deu certo, em partes, minhas grandes considerações são:
+
 -Ver haskell e programar em haskell é outra história, para programar funcional eu precisava tirar imperativo da minha cabeça e isso foi muito difícil;
+
 -Descobri mais uma vez que front é um caos;
--Sofri para configurar o ambiente, sem dúvidas a lingaguem mais dificil de configurar que eu tive contato, instalar dependências, configurar o .cabal, aqui foi quase um dia;
+
+-Sofri para configurar o ambiente, sem dúvidas a lingaguem mais dificil de configurar que eu tive contato, instalar dependências, configurar o .cabal, 
+aqui foi quase um dia;
+
 -Haskell não encontrei muita documentação, como eu disse, os exemplos que eu tinha encontrado eram super complexos e eu não entendia nada;
+
 -Porém descobri recursos novos, muitos deles, nem sei se processei todos;
+
 -Entendi o que de fato é um outro paradigma e que o que não muda não é só a sintaxe, mas a forma que tu tem que pensar;
+
 -A partir do 6° eu abandonei as atualizações, perdi a paciência com meu diário de construção;
+
 -Mas de fato para um jogo funcionar o código é muito mais curto que em C, e mais limpo.
 
-Admito que usei o gpt mas sem ele não teria condições, sem dúvidas eu me planejei mal no tempo, subestimei absurdamente o trabalho achando que seria simples, não tinha aprendido a lição. Fiquei muito tempo no laboratório também, estamos quase na véspera de competição (sim, inclusive faltarei uma semana interia novamente em novembro) então estamos lutando pra conseguir testar tudo, pois nada funciona, então fiquei num ponto que ou eu usava ia para ajudar, ou não entregava, prefiri assim, obviamente que o aproveitamento foi menor e eu esto considerando isto na nota final pois foi minha escolha.
+Admito que usei o gpt mas sem ele não teria condições, sem dúvidas eu me planejei mal no tempo, subestimei absurdamente o trabalho achando que seria simples, não tinha aprendido a lição. Fiquei muito tempo no laboratório também, estamos quase na véspera de competição (sim, inclusive faltarei uma semana interia novamente em novembro) então estamos lutando pra conseguir testar tudo, pois nada funciona, então fiquei num ponto que ou eu usava ia para ajudar, ou não entregava, prefiri assim, obviamente que o aproveitamento foi menor e eu estou considerando isto na nota final pois foi minha escolha.
 Para além disso agradeço a voce, professora, por não ter largado o trabalho nos nossos pés sem sequer dar direção (acontece muito). Um abraço!
 *O código está na pasta.
 
