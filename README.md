@@ -4,6 +4,7 @@ Meu tema escolhido como produção individual foi desenvolver um jogo da velha e
 A ideia que implementei é bem simples, com os cliques do mouse uma posição é selecionada e um círculo aparece então na posição.
 Os primeiros passos do projeto foram criar uma "estrutura", uma ideia de como o jogo funciona, que saiu assim:
 1° versão:
+
 -Definição da estrutura do jogo: como deve ocorrer
 --Lista de posições
 --  1  2  3
@@ -31,6 +32,7 @@ Porém, durante a construção do código os pesadelos começaram a surgir, a pa
 
 4° apenas lista de inteiros 1 equivale ao jogador e 2 ao computador
 primeiras funções:
+
 recebePosicao :: [Int] -> IO[Int]
 recebePosicao pos = x <- readLine
 if pos !! x == 0
@@ -47,6 +49,7 @@ else verificaPosicao pos
 Estava simples e acessível até o momento e a construção seguiu:
 
 5° atualizacao
+
 import Graphics.Gloss
 import System.Exit (exitSuccess, exitFailure)
 
