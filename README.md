@@ -32,7 +32,7 @@ Porém, durante a construção do código os pesadelos começaram a surgir, a pa
 
 4° apenas lista de inteiros 1 equivale ao jogador e 2 ao computador
 primeiras funções:
-
+```
 recebePosicao :: [Int] -> IO[Int]
 recebePosicao pos = x <- readLine
 if pos !! x == 0
@@ -47,9 +47,9 @@ then return take x pos ++ [2] drop (x +1) pos
 else verificaPosicao pos
 
 Estava simples e acessível até o momento e a construção seguiu:
-
+```
 5° atualizacao
-
+```
 import Graphics.Gloss
 import System.Exit (exitSuccess, exitFailure)
 
@@ -95,7 +95,7 @@ main = do
     sorteiaPosicao pos
     --desenho
     verificaCombinacao pos
-
+```
 6° atualizacao
 Aqui o belo mundo desandou, admito que me perdi com o gloss, não entedia os exemplos, como a picture que era um estado da tela, então eu o gpt começamos nossa jornada juntos, ele me explicava e eu não entendia, as coisas ficaram sombrias, descobri que existia dados estruturados em haskell, o que foi um choque. Passei a analisar códigos de jogo da velha disponíveis e entendia menos ainda, as ferramentas e técnicas de codificação eram muito complexas para mim. Eu sequer sabia fazer um laço em haskell e descobri que para o jogo ocorrer existia um play na biblioteca gloss para atualizar a tela. Então minhas lindas funções eram inúteis, nada funcionava. 
 
